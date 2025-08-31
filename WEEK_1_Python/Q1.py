@@ -1,0 +1,5 @@
+n = int(input("Enter n: "))
+a = list(map(int, input("Enter elements: ").split()))
+x = int(input("Enter element to insert at end: "))
+a.append(x)
+print("Array now:", *a)
